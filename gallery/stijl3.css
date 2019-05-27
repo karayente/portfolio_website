@@ -1,0 +1,99 @@
+
+
+html    {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+    background:
+    radial-gradient(white 5%, transparent 16%) 0 0,
+    radial-gradient(white 5%, transparent 16%) 8px 8px,
+    radial-gradient(#f79c00 15%, transparent 20%) 0 1px,
+    radial-gradient(#f79c00 15%, transparent 20%) 8px 9px;
+    background-color:#ffdc77;
+    background-size:16px 16px;
+    }
+a   {
+    text-decoration: none;
+}
+
+* {
+
+  box-sizing: border-box;
+}
+embed   {
+    display: none;
+}
+#back   {
+    position: fixed;
+    top: 1rem;
+    right: -4.2rem;
+    height: 3rem;
+    width: 8rem;
+}
+#back p     {
+    position: fixed;
+    top: 3rem;
+    right: 1.4rem;
+    color: white;
+    font-weight: bolder;
+    padding: 0.3rem;
+    border: 2px solid white;
+    background-color: rgba(255,255,255, 0.35);
+
+}
+#back p:hover    {
+    background-color: white;
+    color:#ed5a88;
+    border: 3px solid #ed5a88;
+}
+#pijl_terug     {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url(left.png);
+    background-size: contain;
+}
+.infoMe {
+    width: 60vw;
+    height: 48vw;
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    z-index: 20;
+
+}
+.vierkant1  {
+    width: 35vw;
+    height: 36vh;
+    background-color: rgb(155, 198, 242, 0.7);
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 5;
+}
+.vierkant2  {
+    width: 45vw;
+    height: 32vh;
+    background-color: rgb(237, 139, 188, 0.7);
+    position: absolute;
+    top: 4.5rem;
+    left: 8rem;
+    z-index: 10;
+    mix-blend-mode: color-burn;
+}
+
+@supports (grid-area: auto) {
+@media (min-width: 40rem) {
+
+
+        }
+
+@media (min-width: 60rem) {
+
+
+
+	    }
+@media (min-width: 80rem) {
+
+
+    }
+}
